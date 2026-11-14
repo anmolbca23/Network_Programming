@@ -35,9 +35,6 @@ public class Lab2_NetworkInterface {
                     }
                     System.out.println("MAC Address: " + macStr.toString());
                 } 
-//                else {
-//                    System.out.println("MAC Address: Not available");
-//                }
 
                 Enumeration<InetAddress> addresses = netIf.getInetAddresses();
                 while (addresses.hasMoreElements()) {

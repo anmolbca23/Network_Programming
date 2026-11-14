@@ -10,7 +10,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
+ *1. Write a Java program using HttpURLConnection to display HTTP status code, message, 
+ * content type, and all response headers. real 3e:)
  * @author ACER
  */
 public class Lab3_HttpHeadersDemo {

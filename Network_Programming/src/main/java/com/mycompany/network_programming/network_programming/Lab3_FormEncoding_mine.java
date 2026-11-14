@@ -5,7 +5,7 @@
 package com.mycompany.network_programming.network_programming;
 
 /**
- *
+ *2. Write a Java program to implement Form Encoding and GET Requests. real 3f:)
  * @author ACER
  */
 
@@ -30,6 +30,7 @@ public class Lab3_FormEncoding_mine {
 
             System.out.println("Encoded Data: " + data);
             System.out.println("Response Code: " + con.getResponseCode());
+            System.out.println("Response Message: " + con.getResponseMessage());
 
             con.disconnect();
 
